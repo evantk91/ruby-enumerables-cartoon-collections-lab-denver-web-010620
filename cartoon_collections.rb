@@ -16,7 +16,7 @@ def long_planeteer_calls(planeteers)# code an argument here
   planeteers.any?{|word| word.length > 4}
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(snacks)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   while i < snacks.length do
